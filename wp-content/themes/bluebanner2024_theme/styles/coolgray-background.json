@@ -1,0 +1,124 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Cool Gray Background",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#A9B2B1",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#DDDDDD",
+					"name": "Base / Two",
+					"slug": "base-2"
+				},
+				{
+					"color": "#000000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#111111",
+					"name": "Contrast / 2",
+					"slug": "contrast2"
+				},
+				{
+					"color": "#D5E0F0",
+					"name": "Contrast / 3",
+					"slug": "contrast3"
+				},
+				{
+					"color": "#004165",
+					"name": "Loyal Blue",
+					"slug": "loyalblue"
+				},
+				{
+					"color": "#772432",
+					"name": "True Maroon",
+					"slug": "truemaroon"
+				},
+				{
+					"color": "#F2DF74",
+					"name": "Happy Yellow",
+					"slug": "happyyellow"
+				},
+				{
+					"color": "#A9B2B1",
+					"name": "Cool Gray",
+					"slug": "coolgray"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"variations": {
+					"outline": {
+						"spacing": {
+							"padding": {
+								"bottom": "calc(0.8rem - 2px)",
+								"left": "calc(1.6rem - 2px)",
+								"right": "calc(1.6rem - 2px)",
+								"top": "calc(0.8rem - 2px)"
+							}
+						},
+						"border": {
+							"width": "2px"
+						}
+					}
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--heading)",
+					"fontWeight": "normal"
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "normal"
+				}
+			}
+		},
+		"elements": {
+			"button": {
+				"border": {
+					"radius": "6px"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--contrast)",
+					"text": "var(--wp--preset--color--base-2)"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "0.98rem",
+						"left": "1.6rem",
+						"right": "1.6rem",
+						"top": "0.8rem"
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--heading)",
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontStyle": "normal"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--contrast)"
+					}
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--heading)",
+					"letterSpacing": "0"
+				}
+			}
+		}
+	}
+}
